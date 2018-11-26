@@ -6,7 +6,7 @@
           <span><h3>{{post.title}}</h3></span>
           <el-button style="float: right; padding: 3px 0" type="text">View Details</el-button>
         </div>
-        <p>{{post.description}}</p>
+        <p>{{post.description.substr(0,80)}}</p>
       </el-card>
     </el-main>
 
