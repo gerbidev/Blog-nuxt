@@ -18,18 +18,24 @@
           target="_blank"
           class="button--grey">GitHub</a>
       </div>
+      {{posts}}
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
+  import Logo from '~/components/Logo.vue'
+  import {mapState} from 'vuex';
+  export default {
+    components: {
+      Logo
+    },
+    computed: {
+      ...mapState({
+        posts: state => state.post.posts
+      })
+    }
   }
-}
 </script>
 
 <style>
