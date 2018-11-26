@@ -18,7 +18,7 @@
           target="_blank"
           class="button--grey">GitHub</a>
       </div>
-      {{posts}}
+
     </div>
   </section>
 </template>

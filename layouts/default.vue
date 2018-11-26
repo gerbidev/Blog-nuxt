@@ -70,6 +70,6 @@ html {
   background-color: #35495e;
 }
 .link-without-line {
-  text-decoration: none;    
+  text-decoration: none;
 }
 </style>
