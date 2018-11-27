@@ -1,44 +1,14 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "Learn Nuxt Up",
-      "description": "Up Its main scope is UI rendering while abstracting away the client/server distribution.ication Server Rendered more enjoyable."
-    },
-    {
-      "id": "2",
-      "title": "Learn GraphQL",
-      "description": "GraphQL is a data query language developed by Facebook. It provides an alternative to REST and ad-hoc webservice architectures. It allows clients to define the structure of the data required, and exactly the same structure of the data is returned from the server. It is a strongly typed runtime which allows clients to dictate what data is needed."
-    },
-    {
       "id": "3",
       "title": "Learn VueJs",
       "description": "Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects."
     },
     {
-      "id": "4",
-      "title": "Learn Laravel",
-      "description": "Laravel framework php to create applications very good."
-    },
-    {
-      "id": "1543281387843",
-      "title": "Sabes cual es",
-      "description": "Pero igual lo mejoare"
-    },
-    {
       "id": "1543281489060",
       "title": "Learn GraphQL",
       "description": "My hobby"
-    },
-    {
-      "id": "1543282178724",
-      "title": "Learn Laravel",
-      "description": "My hobby"
-    },
-    {
-      "id": "1543282726478",
-      "title": "Learn NodeJS",
-      "description": "Aplications forms nodejs and express js, jajajajajajajajajajajaja,Aplications forms nodejs and express js, jajajajajajajajajajajaja,Aplications forms nodejs and express js, jajajajajajajajajajajaja,"
     },
     {
       "id": "1543299236176",
