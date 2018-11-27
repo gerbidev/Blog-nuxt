@@ -19,16 +19,16 @@
 </template>
 <script>
   export default {
-    name: 'newPost',
+    name: 'NewPost',
     data(){
       return {
         form: {
           title: '',
           description: ''
         },
-        rules:{
-          title:{ required: true, message: 'Please provide post title', trigger: 'blur' },
-          description:{ required: true, message: 'Please provide post description', trigger: 'blur' },
+        rules: {
+          title:  { required: true, message: 'Please provide post title', trigger: 'blur' },
+          description:  { required: true, message: 'Please provide post description', trigger: 'blur' },
         }
       }
     },
@@ -41,7 +41,7 @@
               title: this.form.title,
               description: this.form.description
             });
-            this.$router.push({path: '/post/list'})
+            this.$router.push({path : '/post/list'})
           } else {
             console.log('error submit!!');
             return false;
@@ -51,7 +51,6 @@
       resetForm(formName) {
         this.$refs[formName].resetFields();
       }
-
     }
   }
 </script>

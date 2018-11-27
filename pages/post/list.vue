@@ -8,13 +8,10 @@
           </span>
           <el-button style="float: right; padding: 3px 0" type="text" @click="viewDetails(post.id)">View Details</el-button>
         </div>
-        <p>{{post.description.substr(0,80)}}</p>
+        <p>{{post.description.substr(0, 120)}}</p>
       </el-card>
     </el-main>
-
-
   </div>
-
 </template>
 
 <script>
@@ -25,17 +22,16 @@
       try{
         const {data} = await $axios.get('/posts');
         store.dispatch('setPosts', data);
-      }catch (err) {
-        error({statusCode: 500, message: 'Ops, someting went wrong'})
+      }catch(err){
+        error({statusCode: 500, message: 'Ops, something went wrong'})
       }
     },
-    computed:{
+    computed: {
       ...mapState({
         posts: state => state.post.posts
       })
-
     },
-    methods:{
+    methods: {
       viewDetails(postId){
         this.$router.push({path: `/post/${postId}/details`})
       }
@@ -43,6 +39,3 @@
   }
 </script>
 
-<style scoped>
-
-</style>

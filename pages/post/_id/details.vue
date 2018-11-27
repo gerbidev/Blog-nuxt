@@ -24,9 +24,9 @@
       const {data} = await $axios.get(`/posts/${params.id}`);
       store.dispatch('setPost', data);
     },
-    computed:{
+    computed: {
       ...mapState({
-        post: state=> state.post.singlePost
+        post : state => state.post.singlePost
       })
     }
   }
